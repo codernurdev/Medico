@@ -28,15 +28,14 @@ window.onload = () => {
       $("#header_top").removeClass('navTop-active')
     }
   });
-
-  // Counter up jaquery
-
-  $('.counter').counterUp({
-    delay: 20,
-    time: 2000
-  });
 };
 
+// Counter up jaquery
+
+$('.counter').counterUp({
+  delay: 20,
+  time: 2000
+});
 
 // OWl-carousel 
 
